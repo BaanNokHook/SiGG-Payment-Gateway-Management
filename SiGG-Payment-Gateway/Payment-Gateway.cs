@@ -20,6 +20,9 @@ namespace SiGG_Payment_Gateway
 
     public class Transactions
     {
+        internal object txn_date;
+        internal string mid;
+
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
