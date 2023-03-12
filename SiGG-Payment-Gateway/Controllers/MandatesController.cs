@@ -13,10 +13,10 @@ namespace SiGG_Payment_Gateway.Controllers
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-        private readonly ILogger<TransactionsController> _logger;
+        private readonly ILogger<MandatesController> _logger;
         private object txn_date;
 
-        public MandatesController(ILogger<TransactionsController> logger)
+        public MandatesController(ILogger<MandatesController> logger)
         {
             _logger = logger;
         }
