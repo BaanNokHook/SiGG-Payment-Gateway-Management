@@ -22,6 +22,7 @@ namespace SiGG_Payment_Gateway
     {
         internal object txn_date;
         internal string mid;
+        internal DateTime Data;
 
         public DateTime Date { get; set; }
 
